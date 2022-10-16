@@ -1,0 +1,7 @@
+sprite=sprBlockIntroE
+visible=1
+solid=1
+persistent=0
+depth=15
+parent=Block
+mask=

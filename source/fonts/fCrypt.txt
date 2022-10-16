@@ -1,0 +1,8 @@
+name=Crypt of Tomorrow
+size=18
+bold=0
+italic=0
+charset=1
+aa_level=3
+range_start=65
+range_end=122

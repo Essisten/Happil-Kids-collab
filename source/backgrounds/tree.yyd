@@ -1,0 +1,29 @@
++Essisten
+	+Intro
+		|bIntroBGE
+	|bgTitle
++engine
+	|tile_IWBTG
+	|tile_Colors
+	|tile_Rainbow
+	|tile_Crimson
+	|tile_corner
+	|bgGameMakerBlock
+	|bgMegaman
+	|bgFortress
+	|bgTree
+	|bgTree2
+	|bgTree3
+	+thumbs
+		|bgThumbDefault
+		|bgThumbClear
+		|bgThumbBroken
+	+autotiler
+		|bgMarkMazes32
+		|bgMarkMazes16
+		|bgBrownBlock32
+		|bgGuyPipes32
+		|bgFunnySlopeFill
+		|bgFunnySlopeTop
+	+Example (safe to delete)
+		|bgFire
