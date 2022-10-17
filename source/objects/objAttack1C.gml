@@ -55,8 +55,8 @@ applies_to=self
 */
 if (version > 1)
 {
-    time = 1000;
-    alarm[1] = 970;
+    time = 865;
+    alarm[1] = 800;
 }
 event_inherited();
 blue[0] = instance_create(0, objBattleBox.y, objAttackProjectileE);

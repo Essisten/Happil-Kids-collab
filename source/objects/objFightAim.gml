@@ -36,6 +36,7 @@ else
     {
         box_width = 156;
         box_height = 156;
+        alarm[0] = -1;
     }
 }
 alarm[0] = 10;

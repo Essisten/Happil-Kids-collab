@@ -57,8 +57,8 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-dist += 4;
-if (dist < 96)
+dist += 2;
+if (dist < 80)
     alarm[4] = 1;
 else
 {
@@ -90,6 +90,7 @@ a[3] = instance_create(xx + 128, yy, objKnifeAim);
 for (i = 0; i < 4; i += 1)
 {
     a[i].image_angle = a[i].direction + 180;
+    a[i].rot = 5;
 }
 alarm[5] = 50;
 #define Step_0
@@ -119,7 +120,7 @@ applies_to=self
 */
 if (version > 1)
 {
-    time = 1000;
+    time = 1100;
 }
 event_inherited();
 for (i = 0; i < 2 + version; i+= 1)

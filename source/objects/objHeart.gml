@@ -17,6 +17,7 @@ if (global.SettingE[4])
     HP = 1;
     maxHP = 1;
 }
+image_blend = c_red;
 #define Alarm_0
 /*"/*'/**//* YYD ACTION
 lib_id=1
@@ -174,11 +175,25 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-scrHealHeartE(-10);
+god = !god;
+if (god)
+{
+    image_blend = c_white;
+    HP = 0;
+}
+else
+{
+    image_blend = c_red;
+    scrHealHeartE(99);
+}
 #define KeyPress_50
 /*"/*'/**//* YYD ACTION
 lib_id=1
 action_id=603
 applies_to=self
 */
-scrHealHeartE(1);
+with (objBattleControllerE)
+{
+    turn += 1;
+    scrPlaySoundE("eDust");
+}
